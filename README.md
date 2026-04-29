@@ -193,6 +193,6 @@ gedit mydeploy.yml
       become_user: student
       become_method: su
       copy:
-        src: "/var/lib/jenkins/workspace/abc/mvn_c2-1.0-SNAPSHOT.jar"
+        src: "/var/lib/jenkins/workspace/target/abc/mvn_c2-1.0-SNAPSHOT.jar"
         dest: "/home/student/p8.jar"
 
